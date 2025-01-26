@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif; /* Elegant font for a professional look */
+    line-height: 1.8;
+    color: #333;
+    background-color: #f7f7f7; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Biography Section */
+.biography {
+    padding: 2rem 1rem;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.biography h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+/* Awards Section */
+.awards {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 8px;
+}
+
+.awards h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.award-box p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Timeline Section */
+.timeline {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.timeline h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.timeline ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.timeline li {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-left: 4px solid #333; /* Line marker for the timeline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.timeline li strong {
+    color: #222; /* Highlight years */
+    font-weight: bold;
+}
